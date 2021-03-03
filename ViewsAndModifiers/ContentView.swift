@@ -18,7 +18,16 @@ struct ContentView: View {
             .background(Color.green)
             .padding()
             .background(Color.yellow)
+        VStack {
+            Text("Gryffindor")
+                .blur(radius: 0)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .blur(radius: 5)
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
